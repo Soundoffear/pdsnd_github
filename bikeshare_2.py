@@ -189,6 +189,8 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        # Asks user about if RAW DATA should be displayed
+        # It will display only 10 rows at the time, each time user gives positive answer
         raw_display = input("Would you like to see raw data? Enter yes or no. \n")
         if raw_display == 'yes':
             start_idx = 0
