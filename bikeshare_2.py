@@ -159,7 +159,7 @@ def user_stats(df):
         for i, gen_i in enumerate(gender):
             print(gender.index[i], " - ", gen_i)
     else:
-        print("No data for Gender in this city.")
+        print("No data for Gender in {}.".format('Washington'))
 
     # Display earliest, most recent, and most common year of birth
     if "Birth Year" in df.columns:
@@ -170,7 +170,7 @@ def user_stats(df):
         common = most_common(df, "Birth Year")
         print("The most common user birth date: " + str(int(common)))
     else:
-        print("No data for Birth Year in this city.")
+        print("No data for Birth Year in {}.".format("Washington"))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
