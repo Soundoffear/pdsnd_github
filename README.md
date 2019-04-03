@@ -1,15 +1,14 @@
-### Date created
-Include the date you created this project and README file.
+### Project has been created on 3rd April 2019
 
-### Project Title
-Replace the Project Title
+### Project Title: Bike Share Data
 
 ### Description
-Describe what your project is about and what it does
+This project is to provide insight about how bikes are used around Chicago, Washington and New Your File
 
 ### Files used
-Include the files used
+Data files are not included in this repository.
+bikeshare_2.py contains the code required to do the analisys
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity for creating this amazing course.
 
